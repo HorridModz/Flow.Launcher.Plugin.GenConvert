@@ -23,7 +23,7 @@ class GenConvert(Flox):
             self.add_item(
                 title=_("General Converter"),
                 subtitle=_(
-                    "<Hotkey> <Amount> <Source unit - case sensitive> <Destination unit - case sensitive>"
+                    f"{query.ActionKeyword} <Amount> <Source unit - case sensitive> <Destination unit - case sensitive>"
                 ),
             )
             if self.settings.get("show_helper_text"):
